@@ -1,0 +1,13 @@
+
+<div *ngIf="this.lbolUserLogu; then thenBlock else elseBlock"></div>
+<ng-template #thenBlock>
+<div>
+    <label>Etiqueta 1</label>
+</div>
+</ng-template>
+<ng-template #elseBlock>
+<div>
+    <label>Etiqueta 2</label>
+</div>
+</ng-template>
+
